@@ -12,11 +12,10 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-@Generated("org.jsonschema2pojo")
 public class Example {
 
-    private List<Result> Results = new ArrayList<Result>();
-    private Object Links;
+    private List<Result> results = new ArrayList<Result>();
+    private Object links;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     /**
