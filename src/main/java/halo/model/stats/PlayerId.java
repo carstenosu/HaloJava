@@ -1,4 +1,4 @@
-package halo.model;
+package halo.model.stats;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

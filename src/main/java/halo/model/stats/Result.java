@@ -1,5 +1,5 @@
 
-package halo.model;
+package halo.model.stats;
 
 
 public class Result {
