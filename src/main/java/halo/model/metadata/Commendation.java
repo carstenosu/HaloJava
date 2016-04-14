@@ -11,6 +11,10 @@ public class Commendation {
    private List<Level> levels;
    private int threshold;
    private String id;
+   private List<RequiredLevel> requiredLevels;
+   private Reward reward;
+   private Category category;
+   private boolean enabled;
    
    public String getType() {
       return type;
@@ -67,4 +71,37 @@ public class Commendation {
    public void setId( String id ) {
       this.id = id;
    }
+
+   public List<RequiredLevel> getRequiredLevels() {
+      return requiredLevels;
+   }
+
+   public void setRequiredLevels( List<RequiredLevel> requiredLevels ) {
+      this.requiredLevels = requiredLevels;
+   }
+   
+   public Reward getReward() {
+      return reward;
+   }
+
+   public void setReward( Reward reward ) {
+      this.reward = reward;
+   }
+
+   public Category getCategory() {
+      return category;
+   }
+
+   public void setCategory( Category category ) {
+      this.category = category;
+   }
+
+   public boolean isEnabled() {
+      return enabled;
+   }
+   
+   public void setEnabled( boolean enabled ) {
+      this.enabled = enabled;
+   }
+   
 }
