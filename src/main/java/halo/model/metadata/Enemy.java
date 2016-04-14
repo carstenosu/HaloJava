@@ -8,7 +8,7 @@ public class Enemy {
    private String description;
    private String largeIconImageUrl;
    private String smallIconImageUrl;
-   private int id;
+   private String id;
    
    public String getFaction() {
       return faction;
@@ -50,11 +50,11 @@ public class Enemy {
       this.smallIconImageUrl = smallIconImageUrl;
    }
    
-   public int getId() {
+   public String getId() {
       return id;
    }
    
-   public void setId( int id ) {
+   public void setId( String id ) {
       this.id = id;
    }
 }
